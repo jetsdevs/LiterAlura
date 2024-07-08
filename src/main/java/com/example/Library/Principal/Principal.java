@@ -54,7 +54,7 @@ public class Principal {
                 case 6 -> listarAutoresPorAnoDeMorte();
                 case 7 -> listarLivrosPorIdioma();
                 case 0 -> {
-                    System.out.println("Encerrando a LiterAlura!");
+                    System.out.println("Agradecemos por usar o LiterAlura!");
                     running = false;
                 }
                 default -> System.out.println("Opção inválida!");
@@ -66,8 +66,8 @@ public class Principal {
         System.out.println("""
             ===========================================================
                                 LITERALURA
-                   Uma aplicação para você que gosta de livros !
-                   Escolha um número no menu abaixo:
+                   Para vc que gosta de selecionar suas leituras !
+                   Escolha uma opção:
             -----------------------------------------------------------
                                  Menu
                        1- Buscar livros pelo título
